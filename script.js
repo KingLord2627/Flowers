@@ -1,11 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   const flower = document.querySelector("#animation-flower");
   const word = document.querySelector("h1");
+  const words = document.querySelector("h2");
   const rainDrop = document.querySelector(".rain-drop");
 
   setTimeout(() => {
     flower.style.display = "inherit";
     word.style.display = "none";
+    words.style.display = "none";
   }, 2000);
 });
 
